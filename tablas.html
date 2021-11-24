@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+td{
+    height: 25px;
+}
+#titulos{
+    background-color: gainsboro;
+}
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="6">Invoice #123456789</td>
+        <td colspan="2">14 January 2025</td>
+    </tr>
+    <tr>
+        <td id="titulos" colspan="4"><strong>Pay to:</strong></td>
+        <td id="titulos" colspan="4"><strong>Customer:</strong></td>
+    </tr>
+    <tr>
+        <td colspan="4">Acme Billing Co.</td>
+        <td colspan="4">John Smith</td>
+    </tr>
+    <tr>
+        <td colspan="4">123 Main St.</td>
+        <td colspan="4">321 Willow Way</td>
+    </tr>
+    <tr>
+        <td colspan="4">Cityville, NA 12345</td>
+        <td colspan="4">Southeast Northwestershire, MA 54321</td>
+    </tr>
+    <tr>
+        <td id="titulos" colspan="2"><strong>Name/Description</strong></td>
+        <td id="titulos" colspan="2"><strong>Qty.</strong></td>
+        <td id="titulos" colspan="2"><strong>@</strong></td>
+        <td id="titulos" colspan="2"><strong>Cost</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2">Paperclips</td>
+        <td colspan="2">1000</td>
+        <td colspan="2">0.01</td>
+        <td colspan="2">10.00</td>
+    </tr>
+    <tr>
+        <td colspan="2">Staples(box)</td>
+        <td colspan="2">100</td>
+        <td colspan="2">1.00</td>
+        <td colspan="2">100.00</td>
+    </tr>
+    <tr>
+        <td id="titulos" colspan="6"><strong>Subtotal</strong></td>
+        <td colspan="2">110.00</td>
+    </tr>
+    <tr>
+        <td colspan="4">Tax</td>
+        <td colspan="2">8%</td>
+        <td colspan="2">8.80</td>
+    </tr>
+    <tr>
+     <td id="titulos" colspan="6"><strong>Grand Total</strong></td>
+        <td colspan="2">$ 118.80</td>
+    </tr>
+</table>
+</body>
+</html>
