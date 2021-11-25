@@ -1,2 +1,2 @@
 # Tables
-Actividades con tablas
+Actividades con tablas, vídeos, reproductores de sonido e imágenes
